@@ -56,15 +56,19 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.7"
+        kotlinCompilerExtensionVersion = "1.5.1"
     }
 }
 
 dependencies {
     implementation(platform("androidx.compose:compose-bom:2023.06.01"))
+    // other dependencies
+    // Compose
     implementation("androidx.activity:activity-compose:1.7.2")
     implementation("androidx.compose.material3:material3")
     implementation("com.google.accompanist:accompanist-themeadapter-material3:0.28.0")
+
+
     debugImplementation("androidx.compose.ui:ui-tooling")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")

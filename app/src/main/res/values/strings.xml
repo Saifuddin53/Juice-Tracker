@@ -30,4 +30,8 @@
     <string name="cyan">Cyan</string>
     <string name="yellow">Yellow</string>
     <string name="magenta">Magenta</string>
+    <plurals name="number_of_stars">
+        <item quantity="one">%d star</item>
+        <item quantity="other">%d stars</item>
+    </plurals>
 </resources>
